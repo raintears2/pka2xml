@@ -17,9 +17,6 @@ Example:
 
 ```
 docker run -v `pwd`/pkt:/pkt quentinn42/pka2xml:latest pka2xml -d /pkt/foobar.pkt /pkt/foobar.xml
-
-
-```
 docker run -v `pwd`/pkt:/pkt quentinn42/pka2xml:latest pka2xml -e /pkt/foobar.xml /pkt/foobar.pkt
 ```
 
